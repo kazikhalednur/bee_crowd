@@ -11,7 +11,7 @@ int main()
     }
     else
     {
-        printf("Nao Sao Multiplos\n");
+        printf("Nao sao Multiplos\n");
     }
 
     return 0;
