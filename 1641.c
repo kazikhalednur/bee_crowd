@@ -2,14 +2,11 @@
 
 int main()
 {
-    long r, w, l;
-    int i = 1;
-    while (scanf("%ld", &r) && r > 0)
+    int r, w, l, i = 1;
+    while (scanf("%d", &r) && r > 0)
     {
-        scanf("%ld %ld", &w, &l);
-        w /= 2;
-        l /= 2;
-        if (((w * w) + (l * l)) <= (r * r))
+        scanf("%d %d", &w, &l);
+        if (((w * w) + (l * l)) <= (r * r * 4))
         {
             printf("Pizza %d fits on the table.\n", i);
         }
